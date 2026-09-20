@@ -1,0 +1,16 @@
+post:
+  # TODO: define this.
+  security: []
+  summary: Allows coloring display's pixels.
+  operationId: displayColorPixels
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          $ref: '../../schemas/request-bodies/color-pixels-request.yaml'
+  responses:
+    '200':
+      description: The pixels were colored successfully.
+    '400':
+      description: Invalid JSON was provided.
