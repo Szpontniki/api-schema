@@ -13,13 +13,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up NodeJS
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-
-      - name: Install Required Tooling
-        run: npm install --global @redocly/cli
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@v3
 
       - name: Validate
-        run: ./validate.sh
+        run: nix develop -c ./validate.sh
