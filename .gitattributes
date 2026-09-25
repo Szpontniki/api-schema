@@ -1,2 +1,5 @@
 *.yml linguist-detectable
 *.yaml linguist-detectable
+
+.github/workflows/*.yml linguist-detectable=false
+.github/workflows/*.yaml linguist-detectable=false
