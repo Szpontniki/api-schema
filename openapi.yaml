@@ -18,6 +18,8 @@ servers:
 paths:
   /display/color-pixels:
       $ref: './paths/display/color-pixels.yaml'
+  /display/current-state:
+      $ref: './paths/display/current-state.yaml'
 
 components:
   schemas:
@@ -25,3 +27,5 @@ components:
       $ref: './schemas/objects/color.yaml'
     ColorPixelsRequest:
       $ref: './schemas/request-bodies/color-pixels-request.yaml'
+    CurrentStateResponse:
+      $ref: './schemas/response-bodies/current-state-response.yaml'

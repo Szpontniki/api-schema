@@ -1,0 +1,14 @@
+post:
+  # TODO: define this.
+  security: []
+  summary: Returns the current state of the display.
+  operationId: getDisplayState
+  responses:
+    '200':
+      description: Returns an array of pixels.
+      content:
+        application/json:
+          schema:
+            $ref: '../../schemas/response-bodies/current-state-response.yaml'
+    '400':
+      description: Failed to return the current display state.
