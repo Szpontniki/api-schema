@@ -1,7 +1,12 @@
 type: object
 required:
   - imageBase64
+  - pixels
 properties:
   imageBase64:
     type: string
     format: byte
+  pixels:
+    type: array
+    items:
+      $ref: '../objects/pixel.yaml'

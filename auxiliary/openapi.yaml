@@ -21,6 +21,10 @@ paths:
 
 components:
   schemas:
+    Color:
+      $ref: './schemas/objects/color.yaml'
+    Pixel:
+      $ref: './schemas/objects/pixel.yaml'
     ProcessImageRequest:
       $ref: './schemas/request-bodies/process-image-request.yaml'
     ProcessImageResponse:

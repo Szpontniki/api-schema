@@ -25,6 +25,8 @@ components:
   schemas:
     Color:
       $ref: './schemas/objects/color.yaml'
+    Pixel:
+      $ref: './schemas/objects/pixel.yaml'
     ColorPixelsRequest:
       $ref: './schemas/request-bodies/color-pixels-request.yaml'
     CurrentStateResponse:

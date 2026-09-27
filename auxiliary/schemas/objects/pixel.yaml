@@ -1,0 +1,12 @@
+type: object
+required:
+  - x
+  - y
+  - color
+properties:
+  x:
+    type: integer
+  y:
+    type: integer
+  color:
+    $ref: './color.yaml'
