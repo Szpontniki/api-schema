@@ -1,0 +1,27 @@
+openapi: 3.1.0
+
+info:
+  title: Szpontniki's Auxiliary API
+  version: 0.1.0
+  description: Auxiliary API providing image and video processing capabilities developed by Szpontniki.
+  license:
+    name: GNU General Public License v3.0
+    identifier: GPL-3.0-only
+  contact:
+    name: Szpontniki
+    url: https://github.com/Szpontniki
+
+servers:
+  - url: http://localhost:3000
+    description: Default development environment URI.
+
+paths:
+  /process/image:
+    $ref: './paths/process/image.yaml'
+
+components:
+  schemas:
+    ProessImageRequest:
+      $ref: './schemas/request-bodies/process-image-request.yaml'
+    ProcessImageResponse:
+      $ref: './schemas/response-bodies/process-image-response.yaml'

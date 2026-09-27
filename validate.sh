@@ -1,3 +1,3 @@
 #!/bin/sh
 
-redocly lint ./openapi.yaml
+./firmware/validate.sh && ./auxiliary/validate.sh

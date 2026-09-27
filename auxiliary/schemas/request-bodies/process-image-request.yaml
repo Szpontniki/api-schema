@@ -1,0 +1,13 @@
+type: object
+required:
+  - width
+  - height
+  - imageBase64
+properties:
+  width:
+    type: integer
+  height:
+    type: integer
+  imageBase64:
+    type: string
+    format: byte

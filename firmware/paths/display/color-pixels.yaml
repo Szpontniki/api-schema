@@ -1,5 +1,4 @@
 post:
-  # TODO: define this.
   security: []
   summary: Allows coloring display's pixels.
   operationId: displayColorPixels
