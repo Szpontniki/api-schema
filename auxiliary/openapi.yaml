@@ -21,7 +21,7 @@ paths:
 
 components:
   schemas:
-    ProessImageRequest:
+    ProcessImageRequest:
       $ref: './schemas/request-bodies/process-image-request.yaml'
     ProcessImageResponse:
       $ref: './schemas/response-bodies/process-image-response.yaml'
