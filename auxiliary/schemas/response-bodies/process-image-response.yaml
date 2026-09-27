@@ -5,7 +5,6 @@ required:
 properties:
   imageBase64:
     type: string
-    format: byte
   pixels:
     type: array
     items:
