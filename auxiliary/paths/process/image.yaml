@@ -14,6 +14,6 @@ post:
       content:
         application/json:
           schema:
-            $ref: '../../schemas/response-bodies/process-image-resposne.yaml'
+            $ref: '../../schemas/response-bodies/process-image-response.yaml'
     '400':
       description: Invalid request body was provided.
